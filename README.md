@@ -14,6 +14,9 @@
   + Client: 瀏覽器
 ## IP
   + IP v4 : 四個數字組成，140.115.21.38。
+
+  + 私人網路: 「192.168.x.x」，「10.10.x.x」。
+  + 本機網路: 「127.0.0.1」，「localhost」。
   
 ## Port
   + https://zh.wikipedia.org/wiki/TCP/UDP%E7%AB%AF%E5%8F%A3%E5%88%97%E8%A1%A8
