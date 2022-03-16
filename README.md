@@ -47,7 +47,8 @@
     Accept-Language: zh-TW,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
     ```
 + Server回應:
-+ 其中有一個部分就是HTML的內文。
++ 標準模式是回傳標準網頁。其中有一個部分就是HTML的內文。
++ API的模式通常只回傳自訂文字。
 ## FTP Server
   + port 21。
   + 下次提供範例。
