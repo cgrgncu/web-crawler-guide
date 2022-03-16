@@ -59,3 +59,10 @@
   + 會自動加上index.xxx。
   + http://e-service.cwb.gov.tw/HistoryDataQuery/DayDataController.do?command=viewMain&station=466910&stname=%25E9%259E%258D%25E9%2583%25A8&datepicker=2022-03-01&altitude=837.6m
   + ?後面是參數，參數一定是 鍵值對(Key=Vale)，用&分隔。
+
+
+## 爬蟲實作(以雨量為例):
+  + 了解網址的設計理念。
+  + 把HTML原始碼下載回來。
+  + 寫程式取出目標資料。
+  + 把資料整理成你想的樣子。
