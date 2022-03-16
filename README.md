@@ -52,3 +52,9 @@
 ## FTP Server
   + port 21。
   + 下次提供範例。
+
+## 訪問網址的範例:
+  + http://e-service.cwb.gov.tw/HistoryDataQuery/index.jsp
+  + 通常網址路徑沒有帶檔名「http://e-service.cwb.gov.tw/HistoryDataQuery/」。等同於
+  + 會自動加上index.xxx。
+  + 
