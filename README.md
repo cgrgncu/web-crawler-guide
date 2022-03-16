@@ -25,3 +25,29 @@
 
 ## 網址(域名系統，DNS)
   + Google DNS Server : 8.8.8.8
+
+
+## 運作模式
+  + 瀏覽器發送TCP請求，內容類似:
+    ```
+    GET /hello.html HTTP/1.1
+    Host: 127.0.0.1
+    Connection: keep-alive
+    Upgrade-Insecure-Requests: 1
+    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36 Edg/99.0.1150.39
+    sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="99", "Microsoft Edge";v="99"
+    sec-ch-ua-mobile: ?0
+    sec-ch-ua-platform: "Windows"
+    Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+    Sec-Fetch-Site: none
+    Sec-Fetch-Mode: navigate
+    Sec-Fetch-User: ?1
+    Sec-Fetch-Dest: document
+    Accept-Encoding: gzip, deflate, br
+    Accept-Language: zh-TW,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+    ```
++ Server回應:
++ 其中有一個部分就是HTML的內文。
+## FTP Server
+  + port 21。
+  + 下次提供範例。
